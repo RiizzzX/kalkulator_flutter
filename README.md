@@ -25,7 +25,7 @@ Aplikasi ini dibuat menggunakan **Flutter** dengan desain yang responsif dan mud
 ## Demo
  https://github.com/user-attachments/assets/eb27c1d6-edad-4523-a915-cbac4896423b
 ## Identitas
- Nama:Muhammad Irfan Rifai(21)
+ Nama:Fariz Nabil Hauda(10)
  Kelas:XI RPL 2
  Sekolah:SMK N 1 BANTUL
 

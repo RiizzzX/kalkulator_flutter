@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'package:math_expressions/math_expressions.dart';
 
 void main() => runApp(const CalculatorApp());
@@ -33,7 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
   int _selectedIndex = 0;
 
   final UserProfile _userProfile =
-      UserProfile(name: 'Fai', email: 'aku@gmail.com');
+      UserProfile(name: 'Fariz', email: 'guagaka@gmail.com');
   final List<String> _calculationHistory = [];
 
   void _onItemTapped(int index) {
@@ -46,8 +47,8 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Kalkulator'),
-        backgroundColor: Colors.orange,
+        title: const Text('Calculator'),
+        backgroundColor: const Color.fromARGB(255, 231, 74, 210),
       ),
       body: Center(
         child: Container(
@@ -66,11 +67,11 @@ class _HomeScreenState extends State<HomeScreen> {
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(icon: Icon(Icons.calculate), label: 'Kalkulator'),
-          BottomNavigationBarItem(icon: Icon(Icons.history), label: 'Riwayat'),
+          BottomNavigationBarItem(icon: Icon(Icons.history), label: 'History'),
           BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profil'),
         ],
         currentIndex: _selectedIndex,
-        selectedItemColor: Colors.orange,
+        selectedItemColor: const Color.fromARGB(255, 248, 77, 220),
         onTap: _onItemTapped,
       ),
     );
@@ -163,23 +164,23 @@ class _CalculatorState extends State<Calculator> {
               _buildButton('C', color: Colors.grey),
               _buildButton('Del', color: Colors.grey),
               _buildButton('±', color: Colors.grey),
-              _buildButton('÷', color: Colors.orange),
+              _buildButton('÷', color: const Color.fromARGB(255, 230, 97, 207)),
               _buildButton('7'),
               _buildButton('8'),
               _buildButton('9'),
-              _buildButton('×', color: Colors.orange),
+              _buildButton('×', color: const Color.fromARGB(255, 240, 105, 233)),
               _buildButton('4'),
               _buildButton('5'),
               _buildButton('6'),
-              _buildButton('-', color: Colors.orange),
+              _buildButton('-', color: const Color.fromARGB(255, 240, 105, 233)),
               _buildButton('1'),
               _buildButton('2'),
               _buildButton('3'),
-              _buildButton('+', color: Colors.orange),
+              _buildButton('+', color:  const Color.fromARGB(255, 240, 105, 233)),
               _buildButton('.'),
               _buildButton('0'),
               _buildButton('00'),
-              _buildButton('=', color: Colors.orange),
+              _buildButton('=', color:  const Color.fromARGB(255, 240, 105, 233)),
             ],
           ),
         ),
