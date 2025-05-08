@@ -23,7 +23,11 @@ Aplikasi ini dibuat menggunakan **Flutter** dengan desain yang responsif dan mud
 1.Jalankan aplikasi dengan perintah:
   flutter run
 ## Demo
- https://github.com/user-attachments/assets/eb27c1d6-edad-4523-a915-cbac4896423b
+ 
+
+https://github.com/user-attachments/assets/d608644f-a0f8-40b3-be8f-a187e025f159
+
+
 ## Identitas
  Nama:Fariz Nabil Hauda(10)
  Kelas:XI RPL 2
